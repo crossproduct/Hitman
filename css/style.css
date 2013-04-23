@@ -1,0 +1,147 @@
+/*
+#FEFED4 : Day; 
+#121212 : Night;
+*/
+
+body {
+	/*background-color: #FEFED4;*/
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: Helvetica,Arial;
+    position:relative;
+    overflow: hidden !important;
+  	cursor: none !important;
+
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+table {
+	color:#FAFAFA;
+	width:100%;
+}
+
+#infomatics {
+	position:absolute;
+	display:block;
+	top:0px;
+	opacity: 0;
+}
+
+#menus {
+	position:absolute;
+	display:block;
+	top:10px;
+	right: 10px;
+}
+
+#test_menu, #action_menu, #extra_menu{
+	float: left;
+}
+
+#info {
+	color:#FAFAFA;
+	position:absolute;
+	top:10px;
+	left:20px;
+}
+
+#all_summary {
+	color:#EFEFEF;
+	background-color: #222222;
+	width:100%;
+	min-height:400px;
+	top:100px;
+	position:absolute;
+}
+
+#all_summary > table > tr > td {
+	padding:10px;
+	width: 100%;
+	min-height:200px;
+}
+
+.results > div {
+	float:left;
+}
+
+.results > div > span{
+	width:100%;
+	display:block;
+	text-align:center;
+}
+
+#humidityInfo {
+	color:#DE1854;
+	position:absolute;
+	top:10px;
+	right:20px;
+	text-align: right;
+}
+
+#sunriseInfo {
+	color:#DE1854;
+	position:absolute;
+	bottom:10px;
+	left:20px;
+}
+
+#sunsetInfo {
+	color:#DE1854;
+	position:absolute;
+	bottom:10px;
+	right:20px;
+}
+
+#sunriseInfo.night {
+	color:#CCCCCC;
+}
+
+#sunsetInfo.night {
+	color:#CCCCCC;
+}
+
+#temperature_label {
+	font-size:20px;
+}
+
+#humidity_label {
+	font-size:20px;
+}
+
+#sunrise_label {
+	font-size:30px;
+}
+
+#sunset_label {
+	font-size:30px;
+}
+
+#sunrise_text {
+	font-size:50px;
+}
+
+#sunset_text {
+	font-size:50px;
+}
+
+#temperatureLow_text {
+	font-size:35px;
+}
+
+#temperatureHigh_text {
+	font-size:35px;
+}
+
+#temperatureCurrent_text {
+	font-size:50px;
+}
+
+#humidity_text {
+	font-size:50px;
+}
